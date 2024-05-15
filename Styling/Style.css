@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --QuoteFont:"Briem Hand", sans-serif;
+    --H1Font : "Poetsen One", sans-serif;
+    --buttonFont : "DM Serif Display", serif; 
+}
+
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)), url(./../pexels-jplenio-1632780.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.home .Title{
+    font-family: var(--H1Font);
+    font-size: 65px;
+}
+
+.home .Order{
+    font-size: 30px;
+}
+
+.home .new-quote-btn{
+    background-color: #0b2b44;
+    color: white;
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    font-family: var(--buttonFont);
+    font-size: 25px;
+    transition: all 1s;
+    
+}
+.home .new-quote-btn:hover{
+    background-color: white;
+    color: #0b2b44;
+}
+
+.home .quote{
+    font-family: var(--QuoteFont);
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.home .author{
+    font-family: var(--QuoteFont);
+    color: white;
+    font-size: 15px;
+}
+
+
+.quotes{
+    min-height: 250px;
+}

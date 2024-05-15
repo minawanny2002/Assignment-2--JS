@@ -1,0 +1,11 @@
+@media (min-width: 640px) {
+    .home .quote{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    
+    .home .author{
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
